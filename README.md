@@ -1,76 +1,93 @@
 # 🌾 Farmer Helper
 
-Farmer Helper is a simple web-based application designed to assist farmers with essential agricultural resources such as crop recommendations, agricultural news updates, and easy-to-access information libraries.  
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+![GitHub last commit](https://img.shields.io/github/last-commit/DhruvKhassa/farmer-helper)
+![GitHub repo size](https://img.shields.io/github/repo-size/DhruvKhassa/farmer-helper)
+![GitHub stars](https://img.shields.io/github/stars/DhruvKhassa/farmer-helper?style=social)
 
-This project was built with **HTML, CSS, and JavaScript** to provide a lightweight and user-friendly solution for farmers to gather important insights that can help them in day-to-day agricultural decision-making.
+**Farmer Helper** is a lightweight **web-based application** built with **HTML, CSS, & JavaScript** to assist farmers with essential agricultural information.  
+It provides **crop recommendations**, agricultural **news updates**, and access to an **information library** to help farmers make better decisions.
 
 ---
 
 ## 🚀 Features
-- 📌 **Home Page** – Clean and simple interface for easy navigation.
-- 🌱 **Crop Recommendation (`croprecom.html`)** – Suggests suitable crops based on region/conditions.
-- 📚 **Library (`library.html`)** – Provides helpful resources and articles for farmers.
-- 📰 **News Section (`news.html`)** – Displays the latest agricultural news updates.
-- 🎨 **Responsive Design** – Styled with `style.css` for better user experience.
-- ⚡ **Lightweight** – Built with HTML, CSS, and vanilla JavaScript (`app.js`).
+
+- 🌱 **Crop Recommendations** – Get suitable crop suggestions based on conditions.  
+- 📰 **Agricultural News** – Stay updated with recent farming news.  
+- 📚 **Knowledge Library** – Access guides, articles, and resources.  
+- 🏠 **Simple Home Page** – Easy navigation across tools.  
+- 🎨 **Responsive UI** – Clean design using CSS.  
+- ⚡ **Lightweight** – Static HTML + JS, runs directly in any browser.  
 
 ---
 
 ## 🛠️ Tech Stack
-- **HTML5** – Structure of the web application.
-- **CSS3** – Styling and layout.
-- **JavaScript (app.js)** – Interactive features.
-- **Browser based** – No backend required, works directly in any modern browser.
+
+- **Frontend:** HTML5, CSS3, Vanilla JavaScript  
+- **UI Styling:** Custom CSS  
+- **Execution:** Browser-based (no backend needed)  
 
 ---
 
 ## 📂 Project Structure
+
 ```
 farmer-helper/
-├── index.html          # Main landing page
-├── croprecom.html      # Crop recommendation page
-├── library.html        # Information & resources library
-├── news.html           # Agriculture news page
-├── app.js              # Core JavaScript functionality
-├── style.css           # Main stylesheet
-├── style1.css          # Additional styling
-├── LICENSE             # MIT License
-└── README.md           # Project documentation
+├── index.html         # Homepage
+├── croprecom.html     # Crop recommendation page
+├── library.html       # Farmer resource library
+├── news.html          # Agricultural news page
+├── app.js             # JavaScript functionality
+├── style.css          # Stylesheet
+├── style1.css         # Additional styling
+├── LICENSE            # MIT License
+└── README.md          # Documentation
 ```
 
 ---
 
-## 🚀 How to Run Locally
-1. Clone the repository:
+## ⚙️ How to Run Locally
+
+1. Clone this repository:
    ```bash
    git clone https://github.com/DhruvKhassa/farmer-helper.git
-   ```
-
-2. Open the project folder:
-   ```bash
    cd farmer-helper
    ```
 
-3. Open `index.html` in any modern web browser.  
-   > Alternatively, you can use **VSCode Live Server** for a better dev experience.
+2. Open `index.html` in any **modern web browser**.  
+   > No server needed, fully static project.  
+   > For better developer experience: open with **VSCode Live Server**.
 
 ---
 
-## 📸 Screenshots (Optional)
-> You can add screenshots here later!  
+## 📸 Screenshots
+
+📌 *(Replace placeholders with actual screenshots when project runs)*  
+
+| Home Page | Crop Recommendation | News Feed | Library |
+|-----------|----------------------|-----------|----------|
+| ![Home](https://via.placeholder.com/350x200.png?text=Home+Page) | ![Crop Recommendation](https://via.placeholder.com/350x200.png?text=Crop+Recommendation) | ![News](https://via.placeholder.com/350x200.png?text=News+Feed) | ![Library](https://via.placeholder.com/350x200.png?text=Library) |
+
+---
+
+## 📊 ER Diagram
+
+The core data model for **Farmer Helper** consists of Farmers, Crops, Recommendations, News, and Library Resources.  
+
+![ER Diagram](docs/ER-diagram.png)
+
 
 ---
 
 ## 📜 License
-This project is licensed under the **MIT License** – feel free to use, modify, and distribute with attribution.
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
 ## 👨‍💻 Author
-- **Dhruv Khassa** – [GitHub Profile](https://github.com/DhruvKhassa)
+- **Dhruv Khassa**  
+  [GitHub](https://github.com/DhruvKhassa) · [LinkedIn](#)
 
 ---
 
-✨ A lightweight tool to make a big difference in the lives of farmers!
-
-
+✨ Farmer Helper → A small tool, a big impact for farmers 🌱
